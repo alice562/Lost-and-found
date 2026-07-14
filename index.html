@@ -1,1 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lost and Found Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color:aquamarine;">
+  <div class="container">
+    <h1 style="background-color:beige;">Lost and Found</h1>
+    <P>
+        
+    </P>
 
+    <!-- Add Product Form -->
+    <form class="add-product">
+      <input type="text" placeholder="Product name" required>
+      <input type="number" placeholder="Price" required>
+      <button type="submit">Add Product</button>
+    </form>
+    <h2>RESENLY LOST</h2>
+
+    <!-- Product List -->
+    <div class="products">
+      <div class="product-card">
+        <img src="images/watch.jpg" alt="Lost Watch" style="width:100%;border-radius:6px;margin-bottom:0.5rem;">
+        <h3>Vintage Watch</h3>
+        <div class="price">$120</div>
+        <button>Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="images/iphone.jpg" alt="Lost iPhone" style="width:100%;border-radius:6px;margin-bottom:0.5rem;">
+        <h3>iPhone 12</h3>
+        <div class="price">$600</div>
+        <button>Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="images/wallet.jpg" alt="Lost Wallet" style="width:100%;border-radius:6px;margin-bottom:0.5rem;">
+        <h3>Leather Wallet</h3>
+        <div class="price">$45</div>
+        <button>Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="images/backpack.jpg" alt="Lost Backpack" style="width:100%;border-radius:6px;margin-bottom:0.5rem;">
+        <h3>Canvas Backpack</h3>
+        <div class="price">$75</div>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+<h3>RESENTLY FOUND</h3>
+
+    <!-- Cart Panel -->
+    <div class="cart">
+      <h2>Your Cart</h2>
+      <div class="cart-row">
+        <span>Vintage Watch</span>
+        <button class="remove">Remove</button>
+      </div>
+      <div class="cart-row">
+        <span>iPhone 12</span>
+        <button class="remove">Remove</button>
+      </div>
+      <div class="cart-total">Total: $720</div>
+      <button class="checkout">Checkout</button>
+    </div>
+  </div>
+</body>
+</html>
