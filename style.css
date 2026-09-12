@@ -56,10 +56,13 @@ body {
   margin-bottom: 2rem;
   width: 500px;
 }
-.form1{
+.form{
   width:100%;
 }
 
+form {
+  width:100% ;
+}
 form.add-product input[type="text"],
 form.add-product input[type="number"] {
   padding: 0.75rem;
