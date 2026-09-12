@@ -55,17 +55,14 @@ body {
   gap: 0.75rem;
   margin-bottom: 2rem;
   width: 500px;
-}
 .form{
-  width:800%;
+  width:3000%;
 }
-
-
-
   width:100% ;
 }
 form.add-product input[type="text"],
-form.add-product input[type="number"] {
+form.add-product input[type="number"] 
+{
   padding: 0.75rem;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -203,11 +200,10 @@ ul li a:hover {
     height: 600px;
     
 }
-
 .img1 {
     position: absolute;
-    top: 20px;
-    left: 30px;
+    top: 200px;
+    left: 40px;
 }
 
 .img2 {
@@ -220,4 +216,12 @@ ul li a:hover {
     position: absolute;
     bottom: 30px;
     left: 200px;
-}
+ }
+
+ .img4 {
+    position: absolute;
+    bottom: 30px;
+    left: 200px;
+ }
+
+ 
